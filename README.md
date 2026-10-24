@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Arooj Saleem — AI/ML Portfolio
+
+A personal portfolio showcasing my background as a Software Engineering student, my interests in Artificial Intelligence and Machine Learning, selected projects, technical skills, and professional experience.
+
+**Portfolio:** [View Live Portfolio](https://aroojsaleem-995.github.io/AroojSaleem_Portfolio/)
+
+## About the Project
+
+This portfolio is designed to present my technical work and learning journey in AI/ML and software engineering through a clean, responsive interface.
+
+## Features
+
+- Personal introduction and professional profile
+- Technical skills organized by category
+- Selected projects with relevant links
+- Profile image and downloadable résumé
+- Contact options, including email and WhatsApp
+- Responsive layout for desktop and mobile screens
+- Animations and interactive UI elements
+
+## Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **UI:** React
+- **Styling:** CSS
+- **Animations:** Motion for React
+- **Contact integration:** EmailJS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Install [Node.js](https://nodejs.org/) and npm.
+
+### Installation
+
+Clone the repository and enter the project directory:
+
+```bash
+git clone https://github.com/AroojSaleem-995/Arooj-Portfolio.git
+cd Arooj-Portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command         | Purpose                       |
+| --------------- | ----------------------------- |
+| `npm run dev`   | Starts the development server |
+| `npm run build` | Creates a production build    |
+| `npm run start` | Runs the production server    |
+| `npm run lint`  | Checks code with ESLint       |
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+Arooj-Portfolio/
+├── app/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+│   ├── avatar.png
+│   └── resume.pdf
+├── package.json
+├── package-lock.json
+├── next.config.ts
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Environment Variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project uses a local `.env.local` file for any required private configuration.
 
-## Deploy on Vercel
+- Never commit `.env.local` or expose API keys and private credentials.
+- If the contact form requires EmailJS credentials, configure the necessary variables in your local environment and in your deployment platform.
+- Only expose values in client-side code when they are explicitly intended to be public.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Production Build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Verify the project before deployment:
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is intended to be deployed on [Vercel](https://vercel.com/).
+
+1. Push the project to GitHub.
+2. Import the repository into Vercel.
+3. Confirm that Vercel detects Next.js.
+4. Configure any required environment variables.
+5. Deploy and test the live website.
+
+For details, see the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
+
+## Contact
+
+- **LinkedIn:** [Arooj Saleem](https://www.linkedin.com/in/arooj-saleem/)
+- **GitHub:** [AroojSaleem-995](https://github.com/AroojSaleem-995)
+
+For other contact options, please visit the portfolio.
+
+---
+
+Built with Next.js and TypeScript.
