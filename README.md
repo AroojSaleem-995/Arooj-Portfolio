@@ -2,7 +2,7 @@
 
 A personal portfolio showcasing my background as a Software Engineering student, my interests in Artificial Intelligence and Machine Learning, selected projects, technical skills, and professional experience.
 
-**Portfolio:** [View Live Portfolio](https://aroojsaleem-995.github.io/AroojSaleem_Portfolio/)
+**Portfolio:** [View Live Portfolio](https://arooj-portfolio-jet.vercel.app/)
 
 ## About the Project
 
